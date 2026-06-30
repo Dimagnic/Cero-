@@ -12,7 +12,7 @@ export default function WhatsAppFloat() {
       {hovered && (
         <div className={styles.tooltip}>¡Chatea con nosotros!</div>
       )}
-      <a
+      
         className={styles.btn}
         href={`https://wa.me/${WA_NUMBER}?text=${WA_MSG}`}
         target="_blank"
